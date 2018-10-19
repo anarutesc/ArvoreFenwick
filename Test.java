@@ -19,7 +19,7 @@ public class Test {
         
         System.out.println("Arvore this : " + T);
         System.out.println("Soma das primeiras folhas : ");
-        for (int upto = 0; upto <= 10; upto++) {
+        for (int upto = 0; upto <= 6; upto++) {
             System.out.println("prefixSum(" + upto + ") : " + T.prefixSum(upto));
         }
     }
