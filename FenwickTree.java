@@ -83,5 +83,9 @@ public class FenwickTree {
         int m = n / 2;
         return new FenwickTree(n - m, allZeros(n - m), allZeros(m));
     }
+    
+    int between(int lo, int hi){
+        return prefixSum(hi) - prefixSum(lo);
+    }
 
 }
